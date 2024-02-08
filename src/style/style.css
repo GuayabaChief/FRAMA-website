@@ -1,0 +1,47 @@
+.navbar-custom {
+    background-color: #000fff;
+}
+
+.btn-custom {
+    background-color: rgb(160, 253, 53);
+    color: black;
+}
+
+.dropdown-menu-scroll {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.carousel-inner img {
+        height: 500px; 
+        object-fit: cover; 
+}
+
+.carousel-item-left {
+    transform: translateX(-100%);
+}
+.carousel-item-right {
+    transform: translateX(100%);
+}
+.carousel-item-prev.carousel-item-left, .active.carousel-item {
+    transform: translateX(0%);
+}
+.carousel-item-next.carousel-item-right, .active.carousel-item {
+    transform: translateX(0%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .carousel-item-left,
+    .carousel-item-right,
+    .carousel-item-prev.carousel-item-left,
+    .carousel-item-next.carousel-item-right {
+      transform: none;
+    }
+}
+
+.footer-custom {
+    background-color: #000fff;
+    width: 100%;
+    position: relative;
+    height: auto;
+}
