@@ -55,7 +55,22 @@
     font-size: 60px;
 }
 
-
+.carousel-fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1050;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.carousel-fullscreen .carousel-inner {
+    height: 100vh;
+}
+.carousel-fullscreen .carousel-item img {
+    height: 100vh;
+    object-fit: contain;
+}
 
 .banner a{
     padding: 12px;
