@@ -55,6 +55,12 @@
     font-size: 60px;
 }
 
+/* Estilo para la imagen en tamaño original */
+.fullscreen-image {
+    max-width: none !important;
+    height: auto !important;
+}
+
 .carousel-fullscreen {
     position: fixed;
     top: 0;
