@@ -9,4 +9,4 @@ Enfocado a mostrar productos con un caracter responsivo y agradable al usuario.
 * Ajax
 
 ## Peculiaridades:
-El sitio de momento se encuentra desplegado en el servicio Netlify con fines de prueba.
+El sitio esta en InfinityFree, ya es gestionable desde ahi, los servicios se encuentran en otros lugares.
